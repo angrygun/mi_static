@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>layout test1</title>
+    <link rel="stylesheet" href="http://image.meiniucn.com/ui/easyui/1.4.1/themes/default/easyui.css" />
+    <link rel="stylesheet" href="http://image.meiniucn.com/ui/easyui/1.4.1/themes/icon.css" />
+    <link rel="stylesheet" href="http://image.meiniucn.com/ui/tpl_easyui_tabs/blue/index.css" />
+    <script type="text/javascript" src="http://image.meiniucn.com/ui/jquery/jquery-1.7.2.min.js" ></script>
+    <script type="text/javascript" src="http://image.meiniucn.com/ui/easyui/1.4.1/jquery.easyui.min.js" ></script>
+    <script type="text/javascript" src="http://image.meiniucn.com/ui/easyui/1.4.1/locale/easyui-lang-zh_CN.js" ></script>
+    <script type="text/javascript" src="http://image.meiniucn.com/ui/h5/h5.easyui.min.js" role="index" ></script>
+</head>
+<div class="easyui-layout" style="width:400px;height:200px;">
+    <div region="west" split="true" title="Navigator" style="width:150px;">
+        <p style="padding:5px;margin:0;">Select language:</p>
+        <ul>
+            <li><a href="javascript:void(0)" onclick="showcontent('java')">Java</a></li>
+            <li><a href="javascript:void(0)" onclick="showcontent('cshape')">C#</a></li>
+            <li><a href="javascript:void(0)" onclick="showcontent('vb')">VB</a></li>
+            <li><a href="javascript:void(0)" onclick="showcontent('erlang')">Erlang</a></li>
+        </ul>
+    </div>
+    <div region="east" title="east" style="padding:5px;">
+    </div>
+    <div id="content" region="center" title="Language" style="padding:5px;">
+    </div>
+</div>
+<script type="text/javascript">
+       function showcontent(language){
+           $('#content').html('Introduction to'+language+' language');
+       }
+</script>
+</body>
+</html>

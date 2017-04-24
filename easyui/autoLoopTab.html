@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>autoLoopTab</title>
+    <link rel="stylesheet" href="http://image.meiniucn.com/ui/easyui/1.4.1/themes/default/easyui.css" />
+    <link rel="stylesheet" href="http://image.meiniucn.com/ui/easyui/1.4.1/themes/icon.css" />
+    <link rel="stylesheet" href="http://image.meiniucn.com/ui/tpl_easyui_tabs/blue/index.css" />
+    <script type="text/javascript" src="http://image.meiniucn.com/ui/jquery/jquery-1.7.2.min.js" ></script>
+    <script type="text/javascript" src="http://image.meiniucn.com/ui/easyui/1.4.1/jquery.easyui.min.js" ></script>
+    <script type="text/javascript" src="http://image.meiniucn.com/ui/easyui/1.4.1/locale/easyui-lang-zh_CN.js" ></script>
+    <script type="text/javascript" src="http://image.meiniucn.com/ui/h5/h5.easyui.min.js" role="index" ></script>
+</head>
+<body>
+<div id="tt" class="easyui-tabs" style="width:330px;height:270px;">
+    <div title="Shirt1" style="padding:20px;">
+        <img src="./imgs/1.png">
+    </div>
+    <div title="Shirt2" style="padding:20px;">
+        <img src="./imgs/2.png">
+    </div>
+    <div title="Shirt3" style="padding:20px;">
+        <img src="./imgs/1.png">
+    </div>
+    <div title="Shirt4" style="padding:20px;">
+        <img src="./imgs/2.png">
+    </div>
+    <div title="Shirt5" style="padding:20px;">
+        <img src="./imgs/1.png">
+    </div>
+</div>
+<script type="text/javascript">
+    $(function(){
+        var index=0;
+        var t=$('#tt');
+        var tabs= t.tabs('tabs');
+        setInterval(function(){
+            t.tabs('select', tabs[index].panel('options').title);
+            index++;
+            if(index>=tabs.length){
+                index=0;
+            }
+        },2000);
+    })
+</script>
+</body>
+</html>
