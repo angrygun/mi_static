@@ -1,0 +1,323 @@
+@charset "utf-8";
+*{margin:0px;
+  padding:0px;
+  font-family:微软雅黑;
+}
+a{text-decoration:none;}
+li{list-style-type:none;}
+a img{border:none;}
+/*top*/
+#top{width:100%;
+     height:38px;
+	 border:1px solid #dfdfdf;
+}
+#top .t1{width:1240px;
+		   height:38px;
+		   border-left:1px solid #dfdfdf;
+		   border-right:1px solid #dfdfdf;
+		   margin:0px auto;
+}
+#title{width:1240px;
+	   height:110px;
+	   border:1px solid red;
+	   margin:0px auto;
+}
+/*content*/
+/*c1*/
+#content .c1{width:1240px;
+			 height:642px;
+			 border:1px solid red;
+			 margin:0px auto;
+}
+#content .c1-1{width:1240px;
+			   height:50px;
+			   border:1px solid red;
+}
+#content .c1-2{width:1240px;
+			  height:590px;
+			  border:1px solid red;
+}
+#content .c1-2-1{width:248px;
+				height:590px;
+				float:left;
+}
+#content .c1-2_{width:248px;
+				height:73px;
+				border:1px solid red;
+				border-top:none;
+}
+#content .c1-2-2{width:990px;
+				height:590px;
+				float:left;
+				border:1px solid red;
+}
+#content .c1-2-21{width:990px;
+				height:420px;
+				float:left;
+				border:1px solid red;
+}
+#content .c1-2-22{width:328px;
+				height:168px;
+				border:1px solid red;
+				float:left;
+}
+/*c2*/
+#content .c2{width:1240px;
+			height:369px;
+			border:1px solid red;
+			margin:0px auto;
+}
+#content .c2-1{width:1240px;
+				height:60px;
+				border:1px solid red;
+}
+#content .c2-2{width:1240px;
+				height:309px;
+}
+#content .c2-2_{width:308px;
+				height:307px;
+				border:1px solid red;
+				float:left;
+}
+/*c3*/
+#content .c3{width:1240px;
+			height:990px;
+			border:1px solid red;
+			margin:0px auto;
+}
+#content .c3-1{width:1240px;
+				height:60px;
+				border:1px solid red;
+}
+#content .c3-2{width:1240px;
+				height:930px;
+}
+#content .c3-2-1{width:619px;
+				height:308px;
+				border:1px solid red;
+				float:left;
+}
+#content .c3-2-2{width:309px;
+				height:308px;
+				border:1px solid red;
+				float:left;
+}
+#content .c3-2-3{width:306px;
+				height:928px;
+				border:1px solid red;
+				float:right;
+}
+#content .c3-2-4{width:309px;
+				height:309px;
+				border:1px solid red;
+				float:right;
+}
+#content .c3-2-5{width:309px;
+				height:309px;
+				border:1px solid red;
+				float:right;
+}
+#content .c3-2-6{width:308px;
+				height:154px;
+				border:1px solid red;
+				float:right;
+}
+#content .c3-2-7{width:308px;
+				height:153px;
+				border:1px solid red;
+				float:right;
+}
+#content .c3-2-8{width:308px;
+				height:306px;
+				border:1px solid red;
+				float:left;
+}
+#content .c3-2-9{width:309px;
+				height:306px;
+				border:1px solid red;
+				float:left;
+}
+#content .c3-2-10{width:309px;
+				height:306px;
+				border:1px solid red;
+				float:left;
+}
+/*c4*/
+#content .c4{width:1240px;
+			height:680px;
+			border:1px solid red;
+			margin:0px auto;
+}
+#content .c4-1{width:1240px;
+				height:60px;
+				border:1px solid red;
+}
+#content .c4-2{width:1240px;
+				height:620px;
+}
+#content .c4-2-1{width:616px;
+				height:310px;
+				border:1px solid red;
+				float:left;
+}
+#content .c4-2-2{width:308px;
+				height:310px;
+				border:1px solid red;
+				float:left;
+}
+#content .c4-2-3{width:310px;
+				height:617px;
+				border:1px solid red;
+				float:right;
+}
+#content .c4-2-4{width:309px;
+				height:305px;
+				border:1px solid red;
+				float:left;
+}
+#content .c4-2-5{width:305px;
+				height:305px;
+				border:1px solid red;
+				float:left;
+}
+#content .c4-2-6{width:308px;
+				height:305px;
+				border:1px solid red;
+				float:left;
+}
+/*c5*/
+#content .c5{width:1240px;
+			height:470px;
+			border:1px solid red;
+			margin:0px auto;
+}
+#content .c5-1{width:1240px;
+				height:60px;
+				border:1px solid red;
+}
+#content .c5-2{width:1240px;
+				height:410px;
+}
+#content .c5-2-1{width:309px;
+				height:407px;
+				border:1px solid red;
+				float:left;
+}
+#content .c5-2-2{width:309px;
+				height:407px;
+				border:1px solid red;
+				float:left;
+}
+#content .c5-2-3{width:309px;
+				height:407px;
+				border:1px solid red;
+				float:left;
+}
+#content .c5-2-4{width:305px;
+				height:407px;
+				border:1px solid red;
+				float:left;
+}
+/*c6*/
+#content .c6{width:1240px;
+			height:370px;
+			border:1px solid red;
+			margin:0px auto;
+}
+#content .c6-1{width:1240px;
+				height:60px;
+				border:1px solid red;
+}
+#content .c6-2{width:1240px;
+				height:310px;
+}
+#content .c6-2-1{width:309px;
+				height:307px;
+				border:1px solid red;
+				float:left;
+}
+#content .c6-2-2{width:309px;
+				height:307px;
+				border:1px solid red;
+				float:left;
+}
+#content .c6-2-3{width:309px;
+				height:307px;
+				border:1px solid red;
+				float:left;
+}
+#content .c6-2-4{width:305px;
+				height:307px;
+				border:1px solid red;
+				float:left;
+}
+/*c7*/
+#content .c7{width:1240px;
+			height:470px;
+			border:1px solid red;
+			margin:0px auto;
+}
+#content .c7-1{width:1240px;
+				height:60px;
+				border:1px solid red;
+}
+#content .c7-2{width:1240px;
+				height:410px;
+}
+#content .c7-2-1{width:309px;
+				height:407px;
+				border:1px solid red;
+				float:left;
+}
+#content .c7-2-2{width:309px;
+				height:407px;
+				border:1px solid red;
+				float:left;
+}
+#content .c7-2-3{width:309px;
+				height:407px;
+				border:1px solid red;
+				float:left;
+}
+#content .c7-2-4{width:305px;
+				height:407px;
+				border:1px solid red;
+				float:left;
+}
+/*c8*/
+#content .c8{width:1240px;
+			height:397px;
+			border:1px solid red;
+			margin:0px auto;
+}
+#content .c8-1{width:1240px;
+				height:60px;
+				border:1px solid red;
+}
+#content .c8-2{width:1240px;
+				height:337px;
+}
+#content .c8-2-1{width:309px;
+				height:334px;
+				border:1px solid red;
+				float:left;
+}
+#content .c8-2-2{width:309px;
+				height:334px;
+				border:1px solid red;
+				float:left;
+}#content .c8-2-3{width:309px;
+				height:334px;
+				border:1px solid red;
+				float:left;
+}#content .c8-2-4{width:305px;
+				height:334px;
+				border:1px solid red;
+				float:left;
+}
+/*footer*/
+#footer{width:1240px;
+		height:683px;
+		border:1px solid red;
+		margin:0px auto;
+}
